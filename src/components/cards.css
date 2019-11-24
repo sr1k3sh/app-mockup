@@ -1,0 +1,18 @@
+.cards{
+    width:100px;
+    height:110px;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards .cards-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards span{
+    color:#fff
+}

@@ -1,0 +1,97 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+.home-page .body-detail{
+    display: flex;
+    flex-direction: row;
+}
+.home-page .body-detail .main-detail{
+    border-top-left-radius: 25px;
+    margin: 3px;
+    width:70%;
+    padding:18px;
+    box-shadow: 0px 0px 5px 1px #e4e8f3;
+}
+.home-page .body-detail .main-detail h1{
+    font-weight: 500;
+    line-height:1;
+}
+.home-page .body-detail .main-detail h1 span{
+    font-weight: 200;
+    cursor: pointer;
+}
+.home-page .body-detail .side-detail{
+    width:30%
+}
+.home-page .body-detail .main-detail .menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.home-page .body-detail .main-detail .menus .m-details{
+    display: flex;
+    width: 64%;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-page .body-detail .main-detail .menus .m-details{
+    font-size:12px;
+}
+.home-page .body-detail .main-detail .menus .m-details span{
+    cursor: pointer;
+}
+.home-page .body-detail .main-detail .bottom-container{
+    display: flex;
+    flex-direction: row;
+}
+.home-page .body-detail .main-detail .bottom-container .schedule-container{
+    width:50%;
+}
+.home-page .body-detail .main-detail .bottom-container .schedule-container .sch-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+.home-page .body-detail .main-detail .bottom-container .schedule-container .sch-details{
+    cursor: pointer;
+    width:65%;
+    margin-bottom: 8px;
+}
+.home-page .body-detail .main-detail .bottom-container .my-device-container{
+    width:50%;
+
+}
+.home-page .body-detail .main-detail .bottom-container .my-device-container .dev-details
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+     cursor: pointer;
+      margin-bottom: 8px;
+}
+.home-page .body-detail .main-detail .bottom-container .my-device-container .dev1 {
+    display: flex;
+    flex-direction: column;
+}
+.home-page .body-detail .main-detail .bottom-container .my-device-container .dev1 img{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    transform:rotate(180deg);
+    background: coral;
+    border-radius: 10px;
+    box-shadow: -1px -1px 2px 2px #ff7f5069;
+    margin-bottom: 10px;
+}
+.home-page .body-detail .main-detail .bottom-container .my-device-container .dev2 img{
+    width: 120px;
+    background: #fec514;
+    border-radius: 10px;
+    height: 170px;
+    box-shadow: -1px -1px 2px 2px #fec5143d;
+    object-fit: contain;
+}

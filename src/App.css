@@ -1,0 +1,30 @@
+/* 
+primary color: #35357f
+light blue : #4c4de5
+secondary color :#fec514
+font color :#121725
+font color not-active : #dae4ed
+background : #e6f2ff
+*/
+body{
+  background: #e5eff9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-page{
+  width:850px;
+  height:600px;
+  background:#35357f;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-page .main-container{
+  width: 96%;
+  background:#f3faff;
+  border-radius: 25px;
+  margin:6px 6px 6px 0px;
+}
