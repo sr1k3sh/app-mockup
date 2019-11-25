@@ -3,6 +3,8 @@ import './home.css'
 import $ from 'jquery'
 import Cards from '../components/Cards'
 import Switcher from '../components/Switcher'
+import TemperatureComponent from '../components/TemperatureComponent'
+import History from './../components/History'
 const mdetails=['living Room','Bedroom','Kitchen','Hall']
 const schMenu=['week','month','year']
 const devMenu=['Coffee Machine','Light','Refrigerator']
@@ -98,7 +100,10 @@ export default class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="side-detail"></div>
+                    <div className="side-detail">
+                        <TemperatureComponent></TemperatureComponent>
+                        <History></History>
+                    </div>
                 </div>
                 <div className="footer-detail"></div>
             </div>

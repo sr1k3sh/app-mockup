@@ -1,0 +1,79 @@
+.temperature-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temperature-container h3{
+    font-weight: 500;
+}
+.temperature-container .temp-unit{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.temperature-container .temp-unit h2{
+    color:#cdd6e0;
+    cursor: pointer;
+    line-height: 0;
+}
+.temperature-container .temp-unit h2.active{
+    color:#000;
+}
+
+.temperature-container .temp-button{
+    margin-bottom: 16px;
+}
+.temperature-container .temp-button .but-base{
+    /* background: chocolate; */
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    box-shadow: -2px -2px 1px 1px #dee7f0;
+    position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temperature-container .temp-button .but-base .but-mid{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    left: 14px;
+    top: 14px;
+    box-shadow:  -2px 1px 0px 1px #fff, 2px 3px 2px 1px #cdd6e0, 2px -3px 0px 1px #e167836e;
+    cursor: pointer;
+   
+}
+.temperature-container .temp-button .but-base .but-mid:hover{
+    transform: scale(1.03);
+    transition: all 0.6s ease-in-out;
+}
+.temperature-container .temp-button .but-base .temp-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temperature-container .temp-button .but-base .temp-details h2:nth-child(1){
+    line-height: 0;
+    font-weight: 500;
+    color:#cdd6e0;
+}
+.temperature-container .temp-button .but-base .temp-details h2:nth-child(2){
+    line-height: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color:#cdd6e0;
+
+}
+.temperature-container span{
+    font-size: 12px;
+    color:#cdd6e0;
+    font-weight: 400;
+
+
+}

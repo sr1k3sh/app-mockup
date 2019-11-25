@@ -11,7 +11,8 @@
     margin: 3px;
     width:70%;
     padding:18px;
-    box-shadow: 0px 0px 5px 1px #e4e8f3;
+   margin: 3px;
+    box-shadow: inset -1px 1px 4px 3px #e4e8f3
 }
 .home-page .body-detail .main-detail h1{
     font-weight: 500;
@@ -22,7 +23,10 @@
     cursor: pointer;
 }
 .home-page .body-detail .side-detail{
-    width:30%
+    width:30%;
+    border-top-right-radius: 25px;
+    box-shadow: inset 2px 2px 4px 3px #e1e9f3;
+    margin: 2px;
 }
 .home-page .body-detail .main-detail .menus{
     display: flex;

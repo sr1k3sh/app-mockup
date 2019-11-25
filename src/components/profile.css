@@ -1,0 +1,31 @@
+.profile-container{
+    padding:12px
+}
+
+.profile-container .profile-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container .profile-account img{
+    border-radius: 50%;
+    width:24px;
+    height:24px;
+    object-fit: cover;
+}
+
+.profile-container .profile-account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:85px;
+} 
+/* span{
+    color:#fff;
+    font-size: 12px;
+} */
+.profile-container span{
+    color:#fff;
+    font-size: 10px;
+    font-weight: 400;
+}
