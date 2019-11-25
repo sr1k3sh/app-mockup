@@ -5,6 +5,7 @@ import Cards from '../components/Cards'
 import Switcher from '../components/Switcher'
 import TemperatureComponent from '../components/TemperatureComponent'
 import History from './../components/History'
+import Footer from '../components/Footer'
 const mdetails=['living Room','Bedroom','Kitchen','Hall']
 const schMenu=['week','month','year']
 const devMenu=['Coffee Machine','Light','Refrigerator']
@@ -105,7 +106,9 @@ export default class Home extends Component {
                         <History></History>
                     </div>
                 </div>
-                <div className="footer-detail"></div>
+                <div className="footer-detail">
+                    <Footer></Footer>
+                </div>
             </div>
         )
     }

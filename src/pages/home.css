@@ -103,3 +103,6 @@
     box-shadow: -1px -1px 2px 2px #fec5143d;
     object-fit: contain;
 }
+.home-page .footer-detail{
+    height:55px;
+}
