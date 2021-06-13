@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './home.css'
-import $ from 'jquery'
 import Cards from '../components/Cards'
 import Switcher from '../components/Switcher'
 import TemperatureComponent from '../components/TemperatureComponent'
@@ -37,7 +36,7 @@ export default class Home extends Component {
                         <div className="menus">
                             <div className="m-details">{
                                 mdetails.map(mdetails=>
-                                    <span style={this.state.active === mdetails ? activeStyle : {}} 
+                                    <span style={this.state.active === mdetails ? activeStyle : {}}
                                      onClick={this._handleClick.bind(this, mdetails)}>
                                         {mdetails}
                                     </span>)
@@ -46,7 +45,7 @@ export default class Home extends Component {
                             <div>
                                 <img src="./images/more-horizontal.svg" alt=" more"/>
                             </div>
-                            
+
                         </div>
                         <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',marginBottom:'20px'}}>
                             <Cards background="#fec514"></Cards>
@@ -62,7 +61,7 @@ export default class Home extends Component {
                                     schMenu.map(schMenu=>
                                     <span style={this.state.sactive === schMenu ? activeStyle : {}}
                                         onClick={this._handleClickSch.bind(this, schMenu)}>
-                                        {schMenu}   
+                                        {schMenu}
                                     </span>)
                                     }
                                 </div>

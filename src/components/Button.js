@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './button.css'
-import $ from 'jquery'
 export default class Button extends Component {
     constructor(){
         super()
